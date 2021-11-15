@@ -46,6 +46,7 @@ a{
  
  i.fab.fa-angrycreative{
      font-size: 80px;
+     margin-left: 10px;
  }
 
 .barra-de-busqueda{
@@ -159,7 +160,7 @@ i.fas.fa-hand-holding-usd{
 }
 
 i.fas.fa-bars{
-    font-size: 30px;
+    font-size: 40px;
     margin: 5px;
     background: rgba(174, 34, 34, 0.8);
     color: white;
@@ -512,8 +513,21 @@ button.button-send{
 
 
 @media(min-width:768px){
+
+    div.header-global{
+        justify-content: space-around;
+        padding: 0%;
+    }
+    i.fab.fa-angrycreative{
+        font-size: 150px;
+    }
     header div.header-global p{
         display: flex;
+        font-size: 20px;
+        justify-content: center;
+    }
+    header div.header-global i{
+        margin-left: 10px;
     }
     .menu{
         display: none;
@@ -534,10 +548,6 @@ button.button-send{
         display: flex;
     }
 
-    img.logo{
-        width: 50%;
-    }
-
     main section article:hover .description{
         display: block;
     }
@@ -556,10 +566,12 @@ button.button-send{
         font-size: x-large;
     }
     .barra-de-busqueda input{
-        width: 400px;
+        width: 500px;
     }
     div.header-global{
         padding: 0%;
+        justify-content: space-around;
+        align-items: center;
     }
     header ul{
         display: flex;
@@ -583,22 +595,26 @@ button.button-send{
         display:flex;
         padding: 0%;
         position: relative;
-        margin-bottom: 20px;
         align-items: center;
         align-content: center;
+        background: rgba(174, 34, 34, 0.7);
     }
-
-    img.logo{
-        width: 200px;
+    i.fab.fa-angrycreative{
+        font-size: 100px;
+        color: white;
     }
-
+  
     header div.header-global p{
         width: 400px;
         margin-top: 0%;
         font-size: unset;
         align-items: center;
+        color: white;
     }
-    
+
+i.fas.fa-search {
+    color: white;
+}
     .barra-de-busqueda{
         display: flex;
         justify-content: center;
