@@ -47,15 +47,17 @@
 <section class="container-fom">
     <p class="title-form">Ingresá a tu cuenta</p>
     <form class="form-login" action="/" method="post">
-        <label for="user-name">
-            <input class="banner" type="text" name="user-name" id="user-name" required placeholder="Nombre de usuario">
-        </label>
-        <label for="">
-            <input class="banner" type="password" name="password" id="password" required placeholder="introduzca su contraseña">
-        </label>
+        <label for="first_name"> Nombre</label>
+            <input class="banner" type="text" name="first_name" required placeholder="Escribe tu nombre">
+        <label for="last_name"> Apellido</label>
+            <input class="banner" type="text" name="last_name"  required placeholder="Escribe tu apellido">
+        <label for="email"> Correo electrónico </label>
+            <input class="banner" type="email" name="email" required placeholder="Esribe tu correo electrónico">
+        <label for="password">Elige una contraseña </label>
+            <input class="banner" type="password" name="password" required placeholder="introduzca una contraseña">
         <div class="contain-button">
         <button class="button-send" type="submit">Enviar</button>
-    </div>
+        </div>
     </form>
 </section>
 </main>
